@@ -1,0 +1,24 @@
+.row div {
+    padding: 100px;
+    border: 1px solid black;
+    height: 80px;
+    width: 80px;
+    float: left;
+    font-size: 80px;
+    text-align: center;
+    background-color: grey;
+  }
+
+  body {
+    color: whitesmoke;
+    background-color: black;
+  }
+
+  .row {
+    clear: both;
+  }
+
+  .click-to-play {
+    font-size: 199;
+    font-family: fantasy;
+  }
