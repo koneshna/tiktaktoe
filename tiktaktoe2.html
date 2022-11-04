@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TicTacToe</title>
+    <style>
+      .row div {
+        padding: 100px;
+        border: 1px solid black;
+        height: 30px;
+        width: 30 px;
+        float: left;
+      }
+      .row {
+        clear: both;
+      }
+      .click-to-play {
+        font-size: 199;
+        font-family: fantasy;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="player"></div>
+    Click to play TicTacToe.<br />
+    <div>
+      <div class="row">
+        <div onclick="place(this)"></div>
+        <div onclick="place(this)"></div>
+        <div onclick="place(this)"></div>
+      </div>
+      <div class="row">
+        <div onclick="place(this)"></div>
+        <div onclick="place(this)"></div>
+        <div onclick="place(this)"></div>
+      </div>
+      <div class="row">
+        <div onclick="place(this)"></div>
+        <div onclick="place(this)"></div>
+        <div onclick="place(this)"></div>
+      </div>
+    </div>
+    <script>
+      let currentPlayer = "O";
+
+      function place(box) {
+        if (box.innerText != "") return;
+        box.innerText = currentPlayer;
+        if (currentPlayer == "O") {
+          currentPlayer = "X";
+        } else {
+          currentPlayer = "O";
+        }
+      }
+    </script>
+  </body>
+</html>
