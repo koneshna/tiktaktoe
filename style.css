@@ -9,16 +9,38 @@
     background-color: grey;
   }
 
-  body {
-    color: whitesmoke;
+body {
+    color: rgb(243, 0, 0);
     background-color: black;
   }
 
-  .row {
+.row {
     clear: both;
+    color:black;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    inline-size: 266px;
+   
   }
 
-  .click-to-play {
+.click-to-play {
     font-size: 199;
     font-family: fantasy;
   }
+
+.header{
+  display: flex;
+  justify-content: center;
+  color: grey;
+  margin-left: 10px;
+  font-size: x-large;
+  font-family: sans-serif;
+}
+.board{
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  flex-wrap: wrap;
+}

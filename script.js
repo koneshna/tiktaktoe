@@ -1,7 +1,7 @@
 let currentPlayer = "O";
-alert("Are you ready?");
-alert("BEHOLD");
-alert("TicTakToe");
+// alert("Are you ready?");
+ alert("BEHOLD");
+ alert("TicTakToe");
 let won = false;
 function place(box) {
   if (box.innerText != "" || won) return;
