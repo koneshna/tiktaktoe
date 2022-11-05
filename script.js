@@ -28,7 +28,7 @@ function checkGameBoard() {
     document.getElementById("2_2").innerText
   );
 
-  checkWInner(
+  checkWinner(
     document.getElementById("2_0").innerText,
     document.getElementById("1_1").innerText,
     document.getElementById("0_2").innerText
