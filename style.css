@@ -6,23 +6,22 @@
     float: left;
     font-size: 80px;
     text-align: center;
-    background-color: grey;
+    background-color:rgb(5,59,61);
   }
 
 body {
     color: rgb(243, 0, 0);
-    background-color: black;
+    background-color: rgb(22,26,27);
   }
 
 .row {
     clear: both;
-    color:black;
+    color:rgb(85, 85, 173);
     display:flex;
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
     inline-size: 266px;
-   
   }
 
 .click-to-play {
@@ -33,10 +32,11 @@ body {
 .header{
   display: flex;
   justify-content: center;
-  color: grey;
+  color: #dda627;
   margin-left: 10px;
   font-size: x-large;
   font-family: sans-serif;
+  margin-top: 20px;
 }
 .board{
   display: flex;
