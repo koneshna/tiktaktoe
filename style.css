@@ -14,7 +14,7 @@
 
 body {
     color: rgb(243, 0, 0);
-    background-color: rgb(13, 15, 16);
+    background-color: rgb(38, 43, 46);
   }
 
 .row {
@@ -39,7 +39,7 @@ body {
   justify-content: center;
   color: #5d2393;
   margin-left: 10px;
-  font-size: 59px;
+  font-size: 52px;
   font-family: sans-serif;
   margin-top: 20px;
   
