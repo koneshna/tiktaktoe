@@ -37,7 +37,7 @@ body {
 .header{
   display: flex;
   justify-content: center;
-  color: #5d2393;
+  color: rgb(167, 115, 212);
   margin-left: 10px;
   font-size: 52px;
   font-family: sans-serif;
