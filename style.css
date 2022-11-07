@@ -7,6 +7,9 @@
     font-size: 80px;
     text-align: center;
     background-color:rgb(5,59,61);
+    border: 3px solid rgb(48, 48, 89);
+    margin: 2px;
+    border-radius:3%;
   }
 
 body {
@@ -16,12 +19,14 @@ body {
 
 .row {
     clear: both;
-    color:rgb(85, 85, 173);
+    color:rgb(136, 136, 188);
     display:flex;
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
     inline-size: 266px;
+
+    
   }
 
 .click-to-play {
@@ -32,11 +37,12 @@ body {
 .header{
   display: flex;
   justify-content: center;
-  color: #dda627;
+  color: #5d2393;
   margin-left: 10px;
   font-size: x-large;
   font-family: sans-serif;
   margin-top: 20px;
+  
 }
 .board{
   display: flex;
